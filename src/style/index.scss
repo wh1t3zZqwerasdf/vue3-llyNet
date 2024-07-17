@@ -1,0 +1,13 @@
+@import './reset.css';
+@import './variables.css';
+@import './layout.css';
+
+body {
+  padding: 0 !important;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

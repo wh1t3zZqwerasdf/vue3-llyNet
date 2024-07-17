@@ -1,0 +1,31 @@
+.wrap-header {
+  background-color: #53cfcf;
+  height: 60px;
+}
+
+.wrap-body{
+  flex: 1;
+  overflow: hidden;
+  background-color: chocolate;
+}
+
+/* .wrap-menu{
+  height: 20px;
+} */
+
+.wrap-container{
+  /* 这里 -60 是要减去 头部固定的高度   */
+  height: calc(var(--hy-page-height) - 60px);
+  background-color: bisque;
+}
+
+
+.wrap-main {
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+  overflow: hidden;
+  padding: var(--hy-box-space);
+  background-color: cornflowerblue;
+}
+
