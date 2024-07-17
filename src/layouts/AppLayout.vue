@@ -1,8 +1,13 @@
+<script setup lang="ts">
+import WebTemplate from '@/common/components/WebTemplate.vue';
+import BaseWebHeader from '@/components/base/BaseWebHeader.vue';
+</script>
+
 <template>
   <WebTemplate>
     <!-- 头部菜单 -->
     <template #header>
-      菜单栏
+      <BaseWebHeader />
     </template>
     <!-- 标签页 -->
     <template #tabs>
@@ -16,8 +21,4 @@
     </div>
   </WebTemplate>
 </template>
-
-<script setup lang="ts">
-import WebTemplate from '@/common/components/WebTemplate.vue';
-</script>
 <style lang="sass" scoped></style>
